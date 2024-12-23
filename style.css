@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+.menu{
+   list-style: none;
+   background-color: blue;
+   display: flex;
+   justify-content: end;
+
+   
+}
+
+.menu li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu li a{
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover{
+    background-color: rgb(207, 128, 23);
+}
+.menu li a:active{
+    color:rgb(44, 222, 44);
+}
+.menu li a:focus{
+    background-color: blueviolet;
+}
+
+.menu .dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.menu .dropdown{
+    display: none;
+}
+
+.menu li:hover .dropdown{
+    display: block;
+}
+
+.menu .dropdown li{
+    display: block;
+    position: relative;
+}
+
+
+.hero{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url(./d9ae7f16-79b5-4378-abd5-34062db93d46_1.c630e9bf44b05e892fdf564f62ab2027.webp) ;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.apera::first-letter{
+    font-size: 30px;
+}
+.apera::first-line{
+    color: brown;
+
+}
+.apera::after{
+    content: "My Profile";
+}
+.apera::selection{
+    color: aqua;
+}
+.aimg{
+    width: 350px;
+    height:400px ;
+
+}
+.aboutContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.About{
+    display: flex;
+    margin-top:30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+width: 80%;
+}
+
+.aboutp{
+    width: 500px;
+}
+h6{
+    font-size: 40px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+.apera{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.abouta{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 2s ease;
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    
+}
+.abouta:hover{
+    background-color: brown;
+}
+
+.heading{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+.button:hover{
+    background-color: rgb(7, 7, 61);
+}
+
+
+.maincard{
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 500px;
+    text-align: center;
+    background-color: cornflowerblue;
+    
+}
+.cardimg{
+    width: 400px;
+    border-radius: 10px;
+}
+h2{
+    color: blue;
+}
+.maincontainer{
+    display: flex;
+}
+
+.stimg{
+    width: 70px;
+    border-radius: 50px;
+}
+
+.maiNcard{
+    background-color: rgb(252, 247, 247);
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+   
+
+}
+
+h3{
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+}
+.up{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.mainCard{
+   
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer{
+    display: flex;
+    gap: 20px;
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.Footer{
+    background-color:rgb(8, 8, 155);
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding: 15px;
+}
